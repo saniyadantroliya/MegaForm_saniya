@@ -1,0 +1,68 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgba(122, 92, 250, 1);
+}
+form
+{
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+/* 
+input
+{
+    margin-bottom: 10px;
+}
+
+textarea
+{
+    margin-bottom: 10px;
+} */
+
+label
+{
+    margin: 20px 0 5px 0;
+}
+
+
+.form-btn 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.form-btn .reset-btn
+{
+    background-color: transparent;
+    padding: 5px 25px;
+    border: 1px solid rgba(122, 92, 250, 1);
+    color: rgba(122, 92, 250, 1);
+    border-radius: 8px;
+}
+
+.form-btn .save-btn
+{
+    background-color: rgba(122, 92, 250, 1);
+    padding: 5px 25px;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+.formvalidation
+{
+    display: none;
+    color: red;
+}
+
+#noUser
+{
+    display: none;
+}
+
